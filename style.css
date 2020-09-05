@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+}
+body
+{
+    background-color:#EEE;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container
+{
+    max-width: 1000px;
+    background-color: #e4f9f5;
+    margin: 0 auto;
+    padding:20px;
+}
+header
+{
+
+}
+.profile-image
+{
+    width: 80px;
+    height: 100px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+.header-bio
+{
+    float: left;
+    padding:30px;
+}
+h1,h2,h3,h4,h5,h6
+{
+    color:#11999f;
+}
+.header-contact
+{
+    float: right;
+    padding: 30px;
+}
+.header-contact a{
+    text-decoration: none;
+    color:teal;
+    font-weight: bold;
+}
+.header-contact a:hover{
+    text-decoration: underline;
+    color:tomato;
+}
+.clear-div
+{
+    clear: both;
+}
+hr{
+    border: 3px solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom:none ;
+}
+
+/*===================================
+    Personal Information Section Start
+======================================*/
+#personal_info section
+{
+
+}
+.content
+{
+    margin-bottom: 30px;
+}
+.left-div
+{
+    float: left;
+    width: 30%;
+}
+.right-div
+{
+    float: left;
+    width: 30%;
+}
+.common-hr
+{
+    border: 1px solid black;
+    border-bottom:none;
+    margin:20px auto;
+    width: 100%;
+}
+/*===================================
+    Work Information Section Start
+======================================*/
+#work_info section
+{
+
+}
+
+/*===============================================================
+        Educational Information
+=================================================================*/
+.edu-template-left{
+    float: left;
+    width:50%;
+}
+
+.edu-template-right{
+    float: right;
+    width:50%;
+}
+
+/*===============================================================
+        Footer
+=================================================================*/
+
+.bottom-container{
+    background-color: gray;
+    text-align:center;
+    padding:10px;
+}
+.bottom-container a{
+    color:black;
+    text-decoration:none;
+    margin:20px;
+}
+.bottom-container a:hover
+{
+    text-decoration: underline;
+    color:blue;
+}
+.bottom-container p{
+    color:white;
+    font-style:italic;
+
+}
